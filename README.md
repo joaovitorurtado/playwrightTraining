@@ -6,9 +6,9 @@ Criação de scripts de automação utilizando Playwright, com o intuito de estu
 Feature: Automação E2E – SauceDemo - BDD
 
   @login_valido
-  Scenario: Login válido
-    Dado que o usuário já existe
-    Quando ele inserir "standard_user" no campo Username
+  Scenario: Login válido  
+    Dado que o usuário já existe  
+    Quando ele inserir "standard_user" no campo Username  
     E inserir "secret_sauce" no campo Password
     E clicar no botão de Login
     Então a página de inventário deve ser exibida
